@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://quantumman.github.com/atom.xml" rel="self"/>
   <link href="http://quantumman.github.com/"/>
-  <updated>2012-01-06T00:33:44+09:00</updated>
+  <updated>2012-01-06T00:43:31+09:00</updated>
   <id>http://quantumman.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://quantumman.github.com/blog/2012/01/06/test/"/>
+    <updated>2012-01-06T00:42:00+09:00</updated>
+    <id>http://quantumman.github.com/blog/2012/01/06/test</id>
+    <content type="html"><![CDATA[<p>test</p>
+]]></content>
+  </entry>
   
 </feed>

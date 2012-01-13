@@ -1,2 +1,24 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+@mixin header-text {
+       @include text-shadow(6px 6px 50px #000);
+}
+
+body > header h1 {
+     @include header-text;
+}
+
+body > header h2 {
+     @include header-text;
+}
+
+body > nav {
+     font-size: 1.0em;
+}
+
+#content {
+     > div, > article { font-size: 0.80em; }
+}
+
+

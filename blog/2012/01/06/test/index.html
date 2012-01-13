@@ -56,7 +56,8 @@
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/aboutme">About</a></li>
   <li><a href="/blog/archives">Archives</a></li>
 </ul>
 
@@ -122,9 +123,11 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://quantumman.github.com/blog/2012/01/06/test/" data-via="" data-counturl="http://quantumman.github.com/blog/2012/01/06/test/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://quantumman.github.com/blog/2012/01/06/test/" data-via="_quantumman_" data-counturl="http://quantumman.github.com/blog/2012/01/06/test/" >Tweet</a>
   
   
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
   
 </div>
 
@@ -151,9 +154,21 @@
   </ul>
 </section>
 
-
-
-
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("_quantumman_", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/_quantumman_" class="twitter-follow-button" data-show-count="false">Follow @_quantumman_</a>
+  
+</section>
 
 
   
@@ -171,6 +186,15 @@
   
 
 
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 

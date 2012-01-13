@@ -9,8 +9,8 @@
   <meta name="author" content="_quantumman_">
 
   
-  <meta name="description" content=" Blog Archive 2012 test
-Jan 06 2012 Recent Posts test ">
+  <meta name="description" content="Blog Archive 2012 test
+Jan 06 2012 Recent Posts test Latest Tweets Status updating... $.domReady(function(){ getTwitterFeed("_quantumman_", 4, false &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -56,7 +56,8 @@ Jan 06 2012 Recent Posts test ">
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/aboutme">About</a></li>
   <li><a href="/blog/archives">Archives</a></li>
 </ul>
 
@@ -106,9 +107,21 @@ Jan 06 2012 Recent Posts test ">
   </ul>
 </section>
 
-
-
-
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("_quantumman_", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/_quantumman_" class="twitter-follow-button" data-show-count="false">Follow @_quantumman_</a>
+  
+</section>
 
 
   
@@ -126,6 +139,15 @@ Jan 06 2012 Recent Posts test ">
   
 
 
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 

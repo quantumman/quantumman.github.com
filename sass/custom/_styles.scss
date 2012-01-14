@@ -9,15 +9,14 @@ body > header h1 {
      // @include header-text;
 }
 
-.textshadow .site-title sapn {
+.site-title sapn {
      -webkit-transition: all 0.9s ease;
      -moz-transition:    all 0.9s ease;
      -o-transition:      all 0.9s ease;
      transition:         all 0.9s ease;
 }
 
-.textshadow .site-title span:hover {
-     text-shadow: 0px 0px 72px white;
+.site-title span:hover {
      color: transparent;
      -webkit-transition: all 0.5s ease;
      -moz-transition:    all 0.5s ease;

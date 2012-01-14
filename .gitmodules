@@ -1,0 +1,3 @@
+[submodule "source/javascripts/lettering"]
+	path = source/javascripts/lettering
+	url = https://github.com/davatron5000/Lettering.js.git

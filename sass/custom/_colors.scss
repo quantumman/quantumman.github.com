@@ -8,10 +8,10 @@ $main_bg: #fff;
 $page_bg: #fff;
 
 $header-bg: $page_bg;
-$title-color: lighten(#000, 20);
-$subtitle-color: darken($header-bg, 80);
+$title-color: darken(#a16b3f, 23);
+$subtitle-color: darken($title-color, 10);
 
-$text-color: #333333;
+$text-color: darken(#a16b3f, 23);
 $text-color-light: $text-color;
 
 $nav-color: $text-color;
